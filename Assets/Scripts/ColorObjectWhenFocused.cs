@@ -1,17 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorObjectWhenFocused : MonoBehaviour
 {
+    [SerializeField] private Color _defaultColor;
+    [SerializeField] private Color _changeColor;
     void OnMouseEnter()
     {
-        GetComponent<Renderer>().material.color = Color.yellow;
+        GetComponent<Renderer>().material.color = _changeColor;
 
     }
     void OnMouseExit()
     {
-        GetComponent<Renderer>().material.color = Color.red;
+        GetComponent<Renderer>().material.color = _defaultColor;
 
     }
 }

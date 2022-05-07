@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using Unity.FPS.Game;
 using UnityEngine;
 
@@ -48,6 +49,9 @@ namespace Unity.FPS.Gameplay
 
         [Header("Damage")] [Tooltip("Damage of the projectile")]
         public float Damage = 40f;
+
+        [Tooltip("Force power of the projectile")]
+        public float ForcePower;
 
         [Tooltip("Area of damage. Keep empty if you don<t want area damage")]
         public DamageArea AreaOfDamage;
@@ -235,6 +239,8 @@ namespace Unity.FPS.Gameplay
                 Damageable damageable = collider.GetComponent<Damageable>();
                 if (damageable)
                 {
+                    if (ForcePower != 0)
+                         TranslateHitedObject(collider.transform);
                     damageable.InflictDamage(Damage, false, m_ProjectileBase.Owner);
                 }
             }
@@ -264,6 +270,15 @@ namespace Unity.FPS.Gameplay
         {
             Gizmos.color = RadiusColor;
             Gizmos.DrawSphere(transform.position, Radius);
+        }
+
+        private void TranslateHitedObject(Transform tr)
+        {          
+                var force = transform.position - tr.position;
+                force.Normalize();
+                Debug.Log("force " + force);
+                Debug.Log("tr " + tr.position);
+                tr.position = Vector3.MoveTowards(tr.position, new Vector3(-force.x * ForcePower, tr.position.y + 1, -force.z * ForcePower), 5f);
         }
     }
 }
