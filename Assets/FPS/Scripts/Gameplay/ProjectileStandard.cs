@@ -276,8 +276,7 @@ namespace Unity.FPS.Gameplay
         {          
                 var force = transform.position - tr.position;
                 force.Normalize();
-                Debug.Log("force " + force);
-                Debug.Log("tr " + tr.position);
+                
                 tr.position = Vector3.MoveTowards(tr.position, new Vector3(-force.x * ForcePower, tr.position.y + 1, -force.z * ForcePower), 5f);
         }
     }
