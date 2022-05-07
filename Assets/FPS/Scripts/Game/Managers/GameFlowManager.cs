@@ -101,7 +101,7 @@ namespace Unity.FPS.Game
             }
             else
             {
-                m_SceneToLoad = SceneManager.GetActiveScene().name;
+                m_SceneToLoad = LoseSceneName;
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay;
             }
         }
