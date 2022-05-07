@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3388217567840187978}
   - component: {fileID: 3687223706686625155}
   - component: {fileID: 5561475046769766177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_HitSparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4891,7 +4891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_L_Wing03_Jnt_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4922,7 +4922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_R_Wing01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4954,7 +4954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_R_Wing02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4986,7 +4986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_R_Wing03_Jnt_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5018,7 +5018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399121183373293225}
   - component: {fileID: 399121183382608201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BasicRobot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5072,7 +5072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293227}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_Cap_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5107,7 +5107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_L_Wing01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5139,7 +5139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bot_L_Wing02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5171,7 +5171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Front_Panel_C_Jnt_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5202,7 +5202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IrisBlade_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5233,7 +5233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot_FKRoot_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5269,7 +5269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot_Root_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5302,7 +5302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399121183373293243}
   - component: {fileID: 399121183378466699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EyeBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5392,7 +5392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EyeBall_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5426,7 +5426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Front_Panel_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5458,7 +5458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top_R_Ear01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5490,7 +5490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top_R_Ear02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5522,7 +5522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top_Cap_C_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5556,7 +5556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top_L_Ear01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5588,7 +5588,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399121183373293199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top_L_Ear02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5621,7 +5621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3581068095801363743}
   - component: {fileID: 6101265486920434610}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShadowProjector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5679,7 +5679,7 @@ GameObject:
   - component: {fileID: 6375477337554166697}
   - component: {fileID: 786776363404328236}
   - component: {fileID: 1701490775662552829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -5984,7 +5984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2081685706632929509}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: GunMuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6017,7 +6017,7 @@ GameObject:
   - component: {fileID: 1642255112382071110}
   - component: {fileID: 8793232886357509683}
   - component: {fileID: 4986572593957250971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_AngrySteam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10899,7 +10899,7 @@ GameObject:
   - component: {fileID: 4521275929340294133}
   - component: {fileID: 6329145118397687006}
   - component: {fileID: 6002377992400337688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_EnemyMuzzleFlash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15782,7 +15782,7 @@ GameObject:
   - component: {fileID: 7849570387063985960}
   - component: {fileID: 8124983201122841825}
   - component: {fileID: 1064062643916820035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_HitSparks (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20664,7 +20664,7 @@ GameObject:
   - component: {fileID: 9129147174816103825}
   - component: {fileID: 1332113410873735908}
   - component: {fileID: 3263022808601713484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_AngrySteam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25546,7 +25546,7 @@ GameObject:
   - component: {fileID: 7165265755006936132}
   - component: {fileID: 9178011394553612173}
   - component: {fileID: 97718848241188143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_HitSparks (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30426,7 +30426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3308377447003112837}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HealthBarPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30460,7 +30460,7 @@ GameObject:
   - component: {fileID: 6146787491967408758}
   - component: {fileID: 6146787491967408753}
   - component: {fileID: 6146787491967408752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_Alert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35404,7 +35404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8396057667305846}
   - component: {fileID: 6879881422781223167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DetectionModule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35455,7 +35455,7 @@ GameObject:
   - component: {fileID: 4708719302100815505}
   - component: {fileID: 724088669055048410}
   - component: {fileID: 339774460782744506}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35525,7 +35525,7 @@ GameObject:
   - component: {fileID: 24935225476929214}
   - component: {fileID: 5939336480290128245}
   - component: {fileID: 1895171078549754637}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35626,7 +35626,7 @@ GameObject:
   - component: {fileID: 3233141280461320636}
   - component: {fileID: 2994503215682435423}
   - component: {fileID: 3834691564035287152}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: ImageBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35702,7 +35702,7 @@ GameObject:
   - component: {fileID: 8189883940149744404}
   - component: {fileID: 2074235724763529023}
   - component: {fileID: 2234526952317410582}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: Weapon_EyeLazers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35890,7 +35890,7 @@ GameObject:
   - component: {fileID: 8207180208564487090}
   - component: {fileID: 8859128514998774492}
   - component: {fileID: 5219900368252810119}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: ImageFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35964,7 +35964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7221822315765837683}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: GunRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35998,7 +35998,7 @@ GameObject:
   - component: {fileID: 8924184273454196725}
   - component: {fileID: 8924184273454196730}
   - component: {fileID: 8924184273454196731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36095,7 +36095,7 @@ GameObject:
   - component: {fileID: 6037070808355585450}
   - component: {fileID: 5758134061675880035}
   - component: {fileID: 3597516361264866497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VFX_HitSparks (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40975,7 +40975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6542388845743784350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WeaponRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
