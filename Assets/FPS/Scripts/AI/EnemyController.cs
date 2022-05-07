@@ -205,6 +205,7 @@ namespace Unity.FPS.AI
             EnsureIsWithinLevelBounds();
 
             DetectionModule.HandleTargetDetection(m_Actor, m_SelfColliders);
+            DetectionModule.HandleTargetDetection(m_Actor, m_SelfColliders);
 
             Color currentColor = OnHitBodyGradient.Evaluate((Time.time - m_LastTimeDamaged) / FlashOnHitDuration);
             m_BodyFlashMaterialPropertyBlock.SetColor("_EmissionColor", currentColor);
@@ -340,6 +341,7 @@ namespace Unity.FPS.AI
 
         void OnDamaged(float damage, GameObject damageSource)
         {
+            Debug.Log("Enemy damaged");
             // test if the damage source is the player
             if (damageSource && !damageSource.GetComponent<EnemyController>())
             {

@@ -41,6 +41,7 @@ namespace Unity.FPS.Game
 
         void Start()
         {
+            Debug.Log("Game started");
             AudioUtility.SetMasterVolume(1);
         }
 
@@ -76,6 +77,7 @@ namespace Unity.FPS.Game
             EndGameFadeCanvasGroup.gameObject.SetActive(true);
             if (win)
             {
+                Debug.Log("Player win");
                 m_SceneToLoad = WinSceneName;
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay + DelayBeforeFadeToBlack;
 
@@ -101,6 +103,7 @@ namespace Unity.FPS.Game
             }
             else
             {
+                Debug.Log("Player lost");
                 m_SceneToLoad = LoseSceneName;
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay;
             }
